@@ -14,7 +14,7 @@
     <name>spring6jdbc3</name>
     <description>spring6jdbc3</description>
     <properties>
-        <java.version>20</java.version>
+        <java.version>21</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -45,6 +45,24 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <version>3.1.1</version>
+            <configuration>
+                <configLocation>checkstyle.xml</configLocation>
+            </configuration>
+            <executions>
+                <execution>
+                    <phase>validate</phase>
+                    <goals>
+                        <goal>check</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+
         </plugins>
     </build>
 
