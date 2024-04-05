@@ -5,18 +5,20 @@
     <property name="charset" value="UTF-8"/>
     <property name="severity" value="error"/>
     <property name="tabWidth" value="4"/>
-
+    
     <!-- Java code style checks -->
-    <module name="FileTabCharacter"/>
-    <!-- Move JavadocMethod to the parent of Checker -->
-    <module name="JavadocMethod"/>
-    <module name="JavadocStyle"/>
-    <module name="ModifierOrder"/>
-    <module name="ParameterName"/>
-    <module name="RegexpSingleline"/>
-    <module name="TodoComment"/>
-    <module name="WhitespaceAfter"/>
-    <module name="WhitespaceAround"/>
+    <module name="TreeWalker">
+        <module name="FileTabCharacter"/>
+        <module name="JavadocStyle"/>
+        <module name="ModifierOrder"/>
+        <module name="ParameterName"/>
+        <module name="RegexpSingleline"/>
+        <module name="TodoComment"/>
+        <module name="WhitespaceAfter"/>
+        <module name="WhitespaceAround"/>
+        <!-- Move JavadocMethod inside the TreeWalker module -->
+        <module name="JavadocMethod"/>
+    </module>
     
     <!-- Code formatting checks -->
     <module name="Indentation"/>
