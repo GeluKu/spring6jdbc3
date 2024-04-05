@@ -8,7 +8,8 @@
 
     <!-- Java code style checks -->
     <module name="FileTabCharacter"/>
-    
+    <module name="RegexpSingleline"/>
+
     <module name="TreeWalker">
         <!-- Move FileTabCharacter outside of TreeWalker -->
         
@@ -16,7 +17,7 @@
         <module name="JavadocStyle"/>
         <module name="ModifierOrder"/>
         <module name="ParameterName"/>
-        <module name="RegexpSingleline"/>
+        
         <module name="TodoComment"/>
         <module name="WhitespaceAfter"/>
         <module name="WhitespaceAround"/>
