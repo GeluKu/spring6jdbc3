@@ -6,47 +6,44 @@
     <property name="severity" value="error"/>
     <property name="tabWidth" value="4"/>
 
-    <!-- Specify which checks to include -->
-    <module name="TreeWalker">
-        <!-- Java code style checks -->
-        <module name="FileTabCharacter"/>
-        <module name="JavadocMethod"/>
-        <module name="JavadocStyle"/>
-        <module name="ModifierOrder"/>
-        <module name="ParameterName"/>
-        <module name="RegexpSingleline"/>
-        <module name="TodoComment"/>
-        <module name="WhitespaceAfter"/>
-        <module name="WhitespaceAround"/>
-        
-        <!-- Code formatting checks -->
-        <module name="Indentation"/>
-        <module name="LineLength"/>
-        <module name="EmptyBlock"/>
-        <module name="LeftCurly"/>
-        <module name="RightCurly"/>
-        <module name="NeedBraces"/>
-        <module name="MissingSwitchDefault"/>
-        <module name="EmptyStatement"/>
-        <module name="NoWhitespaceBefore"/>
-        <module name="NoWhitespaceAfter"/>
-        <module name="SeparatorWrap"/>
-        <module name="GenericWhitespace"/>
-        
-        <!-- Java best practices checks -->
-        <module name="AvoidStarImport"/>
-        <module name="FinalClass"/>
-        <module name="HideUtilityClassConstructor"/>
-        <module name="IllegalCatch"/>
-        <module name="IllegalThrows"/>
-        <module name="InnerTypeLast"/>
-        <module name="InterfaceIsType"/>
-        <module name="JavadocType"/>
-        <module name="JavadocVariable"/>
-        <module name="OuterTypeFilename"/>
-        <module name="OverloadMethodsDeclarationOrder"/>
-        <module name="RedundantThrows"/>
-        <module name="UnnecessaryParentheses"/>
-        <module name="UnnecessarySemicolon"/>
-    </module>
+    <!-- Java code style checks -->
+    <module name="FileTabCharacter"/>
+    <module name="JavadocMethod"/>
+    <module name="JavadocStyle"/>
+    <module name="ModifierOrder"/>
+    <module name="ParameterName"/>
+    <module name="RegexpSingleline"/>
+    <module name="TodoComment"/>
+    <module name="WhitespaceAfter"/>
+    <module name="WhitespaceAround"/>
+    
+    <!-- Code formatting checks -->
+    <module name="Indentation"/>
+    <module name="LineLength"/>
+    <module name="EmptyBlock"/>
+    <module name="LeftCurly"/>
+    <module name="RightCurly"/>
+    <module name="NeedBraces"/>
+    <module name="MissingSwitchDefault"/>
+    <module name="EmptyStatement"/>
+    <module name="NoWhitespaceBefore"/>
+    <module name="NoWhitespaceAfter"/>
+    <module name="SeparatorWrap"/>
+    <module name="GenericWhitespace"/>
+    
+    <!-- Java best practices checks -->
+    <module name="AvoidStarImport"/>
+    <module name="FinalClass"/>
+    <module name="HideUtilityClassConstructor"/>
+    <module name="IllegalCatch"/>
+    <module name="IllegalThrows"/>
+    <module name="InnerTypeLast"/>
+    <module name="InterfaceIsType"/>
+    <module name="JavadocType"/>
+    <module name="JavadocVariable"/>
+    <module name="OuterTypeFilename"/>
+    <module name="OverloadMethodsDeclarationOrder"/>
+    <module name="RedundantThrows"/>
+    <module name="UnnecessaryParentheses"/>
+    <module name="UnnecessarySemicolon"/>
 </module>
