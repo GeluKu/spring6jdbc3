@@ -7,9 +7,11 @@
     <property name="tabWidth" value="4"/>
 
     <!-- Java code style checks -->
+    <module name="FileTabCharacter"/>
+    
     <module name="TreeWalker">
         <!-- Move FileTabCharacter outside of TreeWalker -->
-        <module name="FileTabCharacter"/>
+        
         <module name="JavadocMethod"/>
         <module name="JavadocStyle"/>
         <module name="ModifierOrder"/>
